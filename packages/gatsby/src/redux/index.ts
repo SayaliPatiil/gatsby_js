@@ -56,11 +56,7 @@ export const readState = (): IGatsbyState => {
   }
 }
 
-export interface IMultiDispatch {
-  <T extends ActionsUnion | ThunkAction<any, IGatsbyState, any, ActionsUnion>>(
-    action: Array<T>
-  ): Array<T>
-}
+
 
 /**
  * Redux middleware handling array of actions
