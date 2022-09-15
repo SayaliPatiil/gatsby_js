@@ -11,6 +11,9 @@ module.exports = function (plop) {
       {
         type: `input`,
         name: `author`,
+        
+        
+        
         message: `Your name/email for putting in the package.json of the new package`,
       },
       {
