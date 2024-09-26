@@ -4,6 +4,9 @@ const ignore = [`**/dist`]
 // to output folders
 // if (process.env.NODE_ENV !== `test`) {
 //   ignore.push(`**/__tests__`)
+
+
+
 // }
 
 module.exports = {
